@@ -2,6 +2,20 @@
 
 This project investigates the proteomic consequences of PSME1 siRNA knockdown in NCI-H441 lung adenocarcinoma cells, identifying 34 significantly differentially expressed proteins through quantile normalisation and limma-based linear modelling. Pathway enrichment analysis revealed disruption of proteasome-mediated degradation across multiple regulatory axes, alongside downregulation of the pyruvate dehydrogenase complex, suggesting secondary metabolic reprogramming. Findings are visualized through a multi-database dot plot spanning GO Biological Process, Reactome, and MSigDB Hallmark 50 gene sets.
 
+### Repository Structure
+
+```
+├── data
+│   └── raw
+├── README.md
+├── results
+│   ├── psme1_kd_pathway_enrichment.pdf
+│   ├── psme1_kd_pathway_enrichment.png
+│   ├── psme1_kd_pathway_genes.md
+│   └── psme1_kd_pathway_genes.txt
+└── scripts
+    └── 01_pway_enrich.py
+```
 
 ## Pathway Dot Plots
 
